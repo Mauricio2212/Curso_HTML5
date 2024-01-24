@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Imagenes/html5-logo-2.png"/>
+    <title>Proyecto Web Multimedia</title>
+</head>
+<body>
+    <header>
+        <h1>Proyecto web en HTML5</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="dieta.html" target="_blank">Dieta</a></li>
+                <li><a href="contacto.html" target="_blank">Contaco</a></li>
+                <li><a href="#pie_pagina">Pie de página</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Multimedia</h2>
+        <section>
+            <article>
+                <h3>Video (etiqueta "video")</h3>
+                <p>A continuación insertaremos un video de prueba</p>
+                <video src="videos/video1.mp4" controls autoplay muted height="400px">
+                    Video de Sparring en la UTE
+                </video>
+                <p>Video de Sparring en la UTE.</p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Video 2 + etiqueta "source"</h3>
+                <video controls autoplay muted height="400px">
+                    <source src="videos/video1.mp4" type="video/mp4"/>
+                </video>
+                <p>
+                    Video de sparring en la UTE.<br>
+                    <q>La etiqueta <b>source</b> nos permite especificar el formato del <i>video.</i></q>
+                </p>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h3>Video de Youtube</h3>
+                <iframe width="500px" height="200px" 
+                    src="https://www.youtube.com/embed/l-8xD_EeE58" title="La ruta de aprendizaje de un desarrollador web en 2023 🖥️" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+                <p>Ruta de aprendizaje para el desarrollo web</p>
+            </article>
+        </section>
+        <hr>
+
+        <section>
+            <article>
+                <h3>Audio Nativo</h3>
+                <audio src="audios/Grabación.m4a" controls></audio>
+            </article>
+        </section>
+
+
+    </main>
+    <hr>
+
+    <footer id="pie_pagina">
+        <h3>Pie de Página</h3>
+        <p> &copy; Esto es un Pie de Página <a href="#top">Ir arriba...</a></p>
+    </footer>
+    
+</body>
+</html>

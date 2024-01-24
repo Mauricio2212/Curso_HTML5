@@ -1,0 +1,14 @@
+
+Estructura de Etiquetas:
+Con contenido: <etiqueta atributo="valor">Contenido</etiqueta>
+
+Sin contenido: <etiqueta_sin_contenido/>
+
+---------- Elementos en Bloque y en Linea --------------
+
+Elemento en Bloque: Es un elemento el cual ocupa el 100% del ancho
+                    de la pantalla y realiza un salto de linea.
+
+Elemento en Linea: Es un elemento que solo ocupa su ancho y se puede
+                   colocar al lado de otro elemento en linea ocupando
+                   la misma linea.

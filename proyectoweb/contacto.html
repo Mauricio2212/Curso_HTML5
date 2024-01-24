@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="Imagenes/html5-logo-2.png"/>
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Proyecto Web en HTML5</h1>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="dieta.html" target="_blank">Dieta</a></li>
+                <li><a href="contacto.html" target="_blank">Contaco</a></li>
+                <li><a href="#pie_pagina">Pie de página</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <section>
+            <article>
+                <h3>Formulario de Contacto</h3>
+                <form method="post" action="destino_de_info">
+                    <fieldset id="InfoPersonal">
+                        <legend>Información Personal</legend>
+                        <div>
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="nombre" id="name" placeholder="Nombre"/>
+                        </div>
+
+                        <div>
+                            <label for="surname">Apellidos:</label>
+                            <input type="text" name="apellidos" id="surname" placeholder="Apellidos"/>
+                        </div>
+
+                        <div>
+                            <label for="email">Correo:</label>
+                            <input type="email" name="correo" id="email" placeholder="Correo @ Electronico"/>
+                        </div>
+
+                        <div>
+                            <label for="age">Edad:</label>
+                            <input type="number" name="edad" id="age" placeholder="Edad"/>
+                        </div>
+
+                        <div>
+                            <label for="men">Hombre</label>
+                            <input type="radio" name="hombre" id="men" value="Hombre"/>
+                            <label for="women">Mujer</label>
+                            <input type="radio" name="mujer" id="women" value="Mujer"/>
+                        </div>
+
+                        <div>
+                            <label for="Description">Motivo de Contacto:</label>
+                            <textarea name="descripcion" id="Description" placeholder="Descripción"></textarea>
+                        </div>
+                    </fieldset>
+
+                    <input type="reset" value="Limpiar Formulario"/>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer id="pie_pagina">
+        <h3>Pie de Página</h3>
+        <p> &copy; Esto es un Pie de Página <a href="#top">Ir arriba...</a></p>
+    </footer>
+</body>
+</html>
